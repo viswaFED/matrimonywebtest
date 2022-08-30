@@ -1,0 +1,118 @@
+.flex-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.flex-childfirst {
+  height: 580px;
+  width: 600px;
+  border-radius: 12px;
+  margin-top: 10%;
+  margin-left: 50px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.imgcon {
+  height: 580px;
+  width: max-content;
+}
+
+.flex-childsecond {
+  height: 580px;
+  width: 480px;
+  margin-top: 10%;
+
+  margin-right: 15px;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+.content {
+  align-items: center;
+  display: inline;
+}
+span {
+  content: "\21C0";
+}
+
+.form {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+.control {
+  margin-bottom: 0.5rem;
+
+}
+
+.control label {
+  display: block;
+  margin-bottom: 0.5rem;
+  float: left;
+  font-size: small;
+}
+
+.control input {
+  background-color: #fcf9f9;
+  color: #38015c;
+  border-radius: 4px;
+  border: 1px solid white;
+  width: 100%;
+  height: 30px;
+  text-align: left;
+}
+
+.control select {
+  background-color: #fcf9f9;
+  color: #38015c;
+  border-radius: 4px;
+  border: 1px solid white;
+  width: 100%;
+  height: 30px;
+  text-align: left;
+}
+
+
+.controlbutton button {
+  display: inline-block;
+  border-radius: 10rem;
+  width: 150px;
+  height: 30px;
+  color: #fff;
+  /* position: relative; */
+  overflow: hidden;
+  border: none;
+  background-color: rgb(177, 35, 101);
+  color: white;
+
+}
+.controlbutton {
+  gap: 40px;
+  margin-bottom: 0.5rem
+}
+
+.controllog p {
+  color: grey;
+  font-size: small;
+}
+
+.controllog a {
+  text-decoration: none;
+  color: orangered;
+}
+
+@media screen and (max-width: 600px) {
+
+  .imgcon,
+  .flex-childfirst {
+    display: none;
+  }
+}
+
+.flex-childsecond {
+  width: auto;
+}
